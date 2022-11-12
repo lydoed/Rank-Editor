@@ -1,0 +1,67 @@
+body{
+    background-color: blueviolet;
+    padding-left: 38%;
+    padding-right: 38%;
+    align-items: center;
+}
+
+#Panel_vybora{
+    background-color: rgb(204, 188, 168);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 12px 11px rgb(92, 84, 84);
+    border: 3px solid black;
+    max-width: 700px;
+    max-height: 500px;
+    min-width: 400px;
+    min-height: 150px;
+    display: block;
+}
+
+#spisok_city{
+    background-color: rgb(163, 204, 87);
+    padding: 10px;
+    border-radius: 7px;
+    border: 2px solid black;
+    font-size: 25px;
+}
+
+#Delete, #Add, #Edit, #Name, #Id{
+    background-color: rgb(163, 204, 87);
+    padding: 10px;
+    border-radius: 7px;
+    margin-top: 5px;
+}
+
+#Delete:active, #Add:active, #Edit:active{
+    background-color: rgb(44, 43, 43);
+}
+
+#Panel_vybora-knopka:hover{
+    background-color: rgb(114, 114, 177);
+}
+
+#spisok_city:hover{
+    background-color: rgb(206, 180, 230);
+}
+
+.Temperature-hot{
+    background-color: rgb(236, 104, 104);
+    border: 1px solid black;
+    border-radius: 4px;
+    font-size: large;
+}
+
+.Alert {
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: rgb(204, 73, 73);
+    font-size: large;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
