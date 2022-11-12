@@ -26,8 +26,8 @@ function filter(){
 
 
 
-const city = document.querySelector(".city_name")
-const vibranii_gorod = document.querySelector('#spisok_city')
+const city = document.querySelector(".User-name")
+const vibranii_gorod = document.querySelector('#spisok_name')
 const div_panel = document.querySelector("#Panel_vybora")
 const add = document.querySelector("#Add")
 const edit = document.querySelector("#Edit")

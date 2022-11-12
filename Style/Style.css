@@ -21,7 +21,7 @@ body{
     display: block;
 }
 
-#spisok_city{
+#spisok_name{
     background-color: rgb(163, 204, 87);
     padding: 10px;
     border-radius: 7px;
@@ -44,7 +44,7 @@ body{
     background-color: rgb(114, 114, 177);
 }
 
-#spisok_city:hover{
+#spisok_name:hover{
     background-color: rgb(206, 180, 230);
 }
 
